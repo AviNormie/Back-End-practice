@@ -25,7 +25,7 @@ app.post('/create', (req,res )=>{
 
             let createdUser= await userModel.create({
                 username,
-                email,
+                email,  
                 password:hash,
                 age,
         
